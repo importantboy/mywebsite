@@ -1,0 +1,4 @@
+dark-#1A1A2E;
+navy-#16213E;
+light-navy#0F3460;
+red-#E94560;
