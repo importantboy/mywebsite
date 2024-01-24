@@ -17,10 +17,24 @@
       position: fixed;
       top: 0;
       width: 100%;
-      font-size: 40px;
+      font-size: 4vw; /* Adjust font size based on viewport width */
       transition: font-size 0.2s, color 0.2s;
       color: #52D3D8; /* Initial text color */
       text-align: center;
+    }
+
+    /* Media query for screens smaller than 480px (e.g. most smartphones) */
+    @media screen and (max-width: 480px) {
+      #scrollText {
+        font-size: 6vw; /* Increase font size for smaller screens */
+      }
+    }
+
+    /* Media query for screens smaller than 320px (e.g. some older smartphones) */
+    @media screen and (max-width: 320px) {
+      #scrollText {
+        font-size: 8vw; /* Increase font size even more for very small screens */
+      }
     }
   </style>
 </head>
